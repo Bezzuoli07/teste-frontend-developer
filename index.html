@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaMente | Terapia e bem-estar</title>
+  <meta name="description" content="Landing page para teste tecnico com formulario funcional.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="#top">NovaMente</a>
+      <div class="nav-links">
+        <a href="#beneficios">Beneficios</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+
+    <div class="hero-content container" id="top">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Atendimento online e presencial</span>
+        <h1>Cuide da sua saude emocional com acolhimento real.</h1>
+        <p>Atendimento psicologico com abordagem humana, agenda flexivel e acompanhamento individual para ansiedade, estresse e rotina intensa.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contato">Agendar triagem</a>
+          <a class="button button-secondary" href="#beneficios">Como funciona</a>
+        </div>
+      </div>
+
+      <aside class="lead-card reveal">
+        <p class="card-kicker">Agende sua avaliacao inicial</p>
+        <h2>Receba contato da equipe em ate 1 dia util</h2>
+        <form id="lead-form" class="lead-form">
+          <label>Nome<input type="text" name="name" placeholder="Seu nome" required></label>
+          <label>E-mail<input type="email" name="email" placeholder="voce@email.com" required></label>
+          <label>Telefone<input type="tel" name="phone" placeholder="(11) 99999-9999" required></label>
+          <label>Objetivo<textarea name="message" rows="4" placeholder="Conte brevemente o que voce procura" required></textarea></label>
+          <button class="button button-primary" type="submit">Quero falar com a equipe</button>
+          <p id="form-feedback" class="form-feedback" aria-live="polite"></p>
+        </form>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container reveal" id="beneficios">
+      <div class="section-heading">
+        <span class="eyebrow">Por que escolher a NovaMente</span>
+        <h2>Uma experiencia pensada para gerar seguranca desde o primeiro contato.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><h3>Escuta especializada</h3><p>Profissionais preparados para acolher diferentes fases da vida com seriedade.</p></article>
+        <article class="feature-card"><h3>Atendimento flexivel</h3><p>Sessoes online ou presenciais com agenda adaptada a rotina do paciente.</p></article>
+        <article class="feature-card"><h3>Plano de acompanhamento</h3><p>Objetivos definidos em conjunto, com evolucao acompanhada ao longo do processo.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-accent" id="depoimentos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Resultados percebidos</span>
+          <h2>Quem passa pela jornada sente a diferenca na rotina.</h2>
+        </div>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial reveal"><p>"Consegui organizar minha ansiedade e voltar a dormir melhor em poucas semanas."</p><cite>Marina, 29 anos</cite></blockquote>
+          <blockquote class="testimonial reveal"><p>"O processo foi leve, profissional e me ajudou a lidar com a pressao no trabalho."</p><cite>Rafael, 35 anos</cite></blockquote>
+          <blockquote class="testimonial reveal"><p>"Gostei da praticidade no agendamento e da forma como fui acolhida desde o inicio."</p><cite>Camila, 24 anos</cite></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container cta reveal" id="contato">
+      <div>
+        <span class="eyebrow">Pronto para começar</span>
+        <h2>Seu primeiro passo pode ser hoje.</h2>
+      </div>
+      <a class="button button-primary" href="#top">Preencher formulario</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>NovaMente © 2026. Projeto demonstrativo para teste tecnico.</p>
+      <a href="#top">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
